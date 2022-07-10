@@ -14,6 +14,7 @@ import static io.qameta.allure.Allure.step;
 public class AuthWithExternalService {
 
     @Test
+    @AllureId("11040")
     @Owner("kanikeev")
     @Severity(SeverityLevel.CRITICAL)
     @Tags({@Tag("UI"), @Tag("Smoke")})
@@ -37,6 +38,7 @@ public class AuthWithExternalService {
     }
 
     @Test
+    @AllureId("11038")
     @Owner("kanikeev")
     @Severity(SeverityLevel.CRITICAL)
     @Tags({@Tag("UI"), @Tag("Smoke")})
@@ -60,6 +62,7 @@ public class AuthWithExternalService {
     }
 
     @Test
+    @AllureId("11039")
     @Owner("kanikeev")
     @Severity(SeverityLevel.CRITICAL)
     @Tags({@Tag("UI"), @Tag("Smoke")})
